@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Justonewant</title>
+  <title>Just One Want</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="#" class="brand"> Just One Want</a>
+				<ul class="nav">
+					<li><%= link_to "All Statuses", statuses_path%></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<%= yield %>
+	</div>
+	
+	<em>Footer</em>
 </body>
 </html>

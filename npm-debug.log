@@ -1,0 +1,157 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/bin/npm', 'install', 'bower', '-g' ]
+info using npm@1.0.17
+info using node@v0.4.11
+verbose config file /Users/SeanMEverett/.npmrc
+verbose config file /usr/etc/npmrc
+verbose into /usr/lib [ 'bower' ]
+verbose cache add [ 'bower', null ]
+info addNamed [ 'bower', '' ]
+verbose addNamed [ null, '' ]
+verbose GET bower
+verbose raw, before any munging bower
+verbose url resolving [ 'http://registry.npmjs.org/', './bower' ]
+verbose url resolved http://registry.npmjs.org/bower
+verbose url parsed { protocol: 'http:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'http://registry.npmjs.org/bower',
+verbose url parsed   pathname: '/bower' }
+verbose etag "4ZU4J3HDEXUZRY8XT6M158T1B"
+verbose response http://registry.npmjs.org/bower
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.1 (Erlang OTP/R15B)',
+silly get cb     etag: '"4ZU4J3HDEXUZRY8XT6M158T1B"',
+silly get cb     date: 'Sun, 10 Feb 2013 00:11:52 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag bower from cache
+verbose GET bower/0.7.0
+verbose raw, before any munging bower/0.7.0
+verbose url resolving [ 'http://registry.npmjs.org/', './bower/0.7.0' ]
+verbose url resolved http://registry.npmjs.org/bower/0.7.0
+verbose url parsed { protocol: 'http:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'http://registry.npmjs.org/bower/0.7.0',
+verbose url parsed   pathname: '/bower/0.7.0' }
+verbose etag "4ZU4J3HDEXUZRY8XT6M158T1B"
+verbose response http://registry.npmjs.org/bower/0.7.0
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.1 (Erlang OTP/R15B)',
+silly get cb     etag: '"4ZU4J3HDEXUZRY8XT6M158T1B"',
+silly get cb     date: 'Sun, 10 Feb 2013 00:11:52 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag bower/0.7.0 from cache
+verbose bin dist [ '0.4-ares1.7.4-ev4.4-openssl0.9.8r-v83.1.8.26-darwin-12.2.1',
+verbose bin dist   { shasum: '9acd8601a414c681248cb0a8a233276d9e8bb20a',
+verbose bin dist     tarball: 'http://registry.npmjs.org/bower/-/bower-0.7.0.tgz' } ]
+silly testEngine { name: 'bower',
+silly testEngine   description: 'The browser package manager.',
+silly testEngine   version: '0.7.0',
+silly testEngine   author: { name: 'Twitter' },
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'MIT',
+silly testEngine        url: 'https://github.com/twitter/bower/blob/master/LICENSE' } ],
+silly testEngine   main: 'lib',
+silly testEngine   homepage: 'http://twitter.github.com/bower',
+silly testEngine   engines: { node: '>=0.8.0' },
+silly testEngine   dependencies: 
+silly testEngine    { tmp: '~0.0.16',
+silly testEngine      vows: '~0.6.4',
+silly testEngine      glob: '~3.1.14',
+silly testEngine      nopt: '~2.0.0',
+silly testEngine      archy: '~0.0.2',
+silly testEngine      async: '~0.1.22',
+silly testEngine      colors: '~0.6.0-1',
+silly testEngine      rimraf: '~2.0.2',
+silly testEngine      mkdirp: '~0.3.4',
+silly testEngine      semver: '~1.1.0',
+silly testEngine      request: '~2.11.4',
+silly testEngine      fstream: '~0.1.19',
+silly testEngine      'hogan.js': '~2.0.0',
+silly testEngine      lodash: '~0.9.1',
+silly testEngine      'read-package-json': '~0.1.8',
+silly testEngine      stable: '~0.1.2',
+silly testEngine      rc: '~0.0.6',
+silly testEngine      unzip: '0.0.4',
+silly testEngine      tar: '~0.1.13' },
+silly testEngine   scripts: 
+silly testEngine    { postinstall: 'node cleanup',
+silly testEngine      test: 'mocha -R spec -t 20000' },
+silly testEngine   devDependencies: { mocha: '~1.6.0', nock: '~0.13.5' },
+silly testEngine   bin: { bower: 'bin/bower' },
+silly testEngine   preferGlobal: true,
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/Users/SeanMEverett/.npm/bower/0.7.0/package/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'bower@0.7.0',
+silly testEngine   _engineSupported: false,
+silly testEngine   _npmVersion: '1.0.17',
+silly testEngine   _nodeVersion: 'v0.4.11',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/SeanMEverett/.npm/bower/0.7.0/package/package.json
+verbose loadDefaults bower@0.7.0
+silly resolved [ { name: 'bower',
+silly resolved     description: 'The browser package manager.',
+silly resolved     version: '0.7.0',
+silly resolved     author: { name: 'Twitter' },
+silly resolved     licenses: 
+silly resolved      [ { type: 'MIT',
+silly resolved          url: 'https://github.com/twitter/bower/blob/master/LICENSE' } ],
+silly resolved     main: 'lib',
+silly resolved     homepage: 'http://twitter.github.com/bower',
+silly resolved     engines: { node: '>=0.8.0' },
+silly resolved     dependencies: 
+silly resolved      { tmp: '~0.0.16',
+silly resolved        vows: '~0.6.4',
+silly resolved        glob: '~3.1.14',
+silly resolved        nopt: '~2.0.0',
+silly resolved        archy: '~0.0.2',
+silly resolved        async: '~0.1.22',
+silly resolved        colors: '~0.6.0-1',
+silly resolved        rimraf: '~2.0.2',
+silly resolved        mkdirp: '~0.3.4',
+silly resolved        semver: '~1.1.0',
+silly resolved        request: '~2.11.4',
+silly resolved        fstream: '~0.1.19',
+silly resolved        'hogan.js': '~2.0.0',
+silly resolved        lodash: '~0.9.1',
+silly resolved        'read-package-json': '~0.1.8',
+silly resolved        stable: '~0.1.2',
+silly resolved        rc: '~0.0.6',
+silly resolved        unzip: '0.0.4',
+silly resolved        tar: '~0.1.13' },
+silly resolved     scripts: 
+silly resolved      { postinstall: 'node cleanup',
+silly resolved        test: 'mocha -R spec -t 20000' },
+silly resolved     devDependencies: { mocha: '~1.6.0', nock: '~0.13.5' },
+silly resolved     bin: { bower: 'bin/bower' },
+silly resolved     preferGlobal: true,
+silly resolved     _npmJsonOpts: 
+silly resolved      { file: '/Users/SeanMEverett/.npm/bower/0.7.0/package/package.json',
+silly resolved        wscript: false,
+silly resolved        contributors: false,
+silly resolved        serverjs: false },
+silly resolved     _id: 'bower@0.7.0',
+silly resolved     _engineSupported: false,
+silly resolved     _npmVersion: '1.0.17',
+silly resolved     _nodeVersion: 'v0.4.11',
+silly resolved     _defaultsLoaded: true } ]
+info into /usr/lib bower@0.7.0
+info installOne bower@0.7.0
+verbose installOne cb bower@0.7.0
+ERR! Unsupported
+ERR! Not compatible with your version of node/npm: bower@0.7.0
+ERR! Required: {"node":">=0.8.0"}
+ERR! Actual:   {"npm":"1.0.17","node":"v0.4.11"}
+ERR! 
+ERR! System Darwin 12.2.1
+ERR! command "node" "/usr/bin/npm" "install" "bower" "-g"
+ERR! cwd /Users/SeanMEverett/Developer/justonewant
+ERR! node -v v0.4.11
+ERR! npm -v 1.0.17
+verbose exit [ 1, true ]
