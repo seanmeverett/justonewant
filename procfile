@@ -1,0 +1,1 @@
+web: bundle exec rails server -e $REAILS-ENV -p $PORT
