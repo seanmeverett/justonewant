@@ -9,3 +9,9 @@ tragnark:
   last_name: "Reid"
   email:  "tragnark@hotmail.com"
   profile_name: "tragnark"
+
+mike:
+  first_name: "Mike"
+  last_name: "The Frog"
+  email:  "mike@thefrog.com"
+  profile_name: "mikethefrog"
