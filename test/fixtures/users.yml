@@ -3,6 +3,7 @@ sean:
   last_name: "Everett"
   email: "seanmeverett@gmail.com"
   profile_name: "seanmeverett"
+  encrypted_password: "$2a$10$Fh/Hm8RxDsuPTeBUr6864.GARlcmt7zF2WspaXGr3BIv2C27N.osq"
 
 tragnark:
   first_name: "Nick"
